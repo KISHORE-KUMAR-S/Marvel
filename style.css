@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Marvel', sans-serif;
+}
+nav{
+    background-color: black;
+    padding: 18px;
+    max-height: 18px;
+}
+footer{
+    background-color: black;
+    padding: 18px;
+    height: 120px;
+    max-height: 120px;
+    font-size: smaller;
+}
+footer .footer{
+    height: 22px;
+    max-height: 22px;
+    font-size: larger;
+}
+.header ul{
+    margin: 0 25%;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+li::content{
+    color: black;
+}
+.header li:hover{
+    border-bottom: 3px solid white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    width: 100%;
+    height: 500px;
+}
+#hotstar{
+    margin-top: -10px;
+}
+.hotstar{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.hotstar img{
+    width: 3.5%;
+}
+.movies h1, .movies h4{
+    text-align: center;
+}
+section{
+    margin: 0 5%;
+}
+.cards{
+    height: 275px;
+    max-height: 275px;
+    display: flex;
+    padding: 3% 2% 7% 2%;
+    padding-left: 4%;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -60px;
+    background-color: white;
+    color: black;
+}
+.movie{
+    margin: 0 2%;
+}
+.movie .cards{
+    height: 275px;
+    max-height: 275px;
+    display: flex;
+    padding: 1% 1% 11% 1%;
+    padding-left: 4%;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -60px;
+    background-color: white;
+    color: black;
+}
+.movie .card img{
+    width: 95%;
+    transform: scale(1);
+}
+.button p{
+    border: 1px solid;
+    width:fit-content;
+    padding: 10px;
+    font-size: 30px;
+}
+.button p:hover{
+    background-color: black;
+    color: white;
+}
+.buttoninsider p{
+    border: 1px solid;
+    width:fit-content;
+    padding: 10px;
+    font-size: 30px;
+}
+.buttoninsider p:hover{
+    background-color: white;
+    color: black;
+}
+h1{
+    padding-left: 85px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#news{
+    height: 200px;
+    max-height: 200px;
+    display: flex;
+    padding: 3% 2% 15% 2%;
+    padding-left: 4%;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -200px;
+    background-color: #e23636;
+}
+#characters{
+    height: 200px;
+    max-height: 200px;
+    display: flex;
+    padding: 5% 2% 15% 2%;
+    padding-left: 4%;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -200px;
+    background-color: #e23636;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.card img{
+    width: 90%;
+    transform: scale(1);
+}
+.card h4, .card h5{
+    padding-left: 5px;
+}
+.card:hover{
+    height:fit-content;
+    position: relative;
+    transform: scale(1.06);
+    transition-duration: 1s;
+    color: red;
+}
+#characters .card{
+    transform: scale(1);
+}
+#img .overlay img{
+    position:absolute;
+    top: 1675px;
+    padding-left: 45px;
+}
+#img .overlay h2{
+    position: absolute;
+    display: flex;
+    top: 1800px;
+    padding-left: 50px;
+    font-size: xx-large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img .overlay h3{
+    position: absolute;
+    display: flex;
+    top: 1850px;
+    padding-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#img .overlay p{
+    position: absolute;
+    display: flex;
+    top: 1900px;
+    margin-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: red;
+    width: fit-content;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.movies .overlaymovies h1{
+    position: absolute;
+    display: flex;
+    font-size: xx-large;
+    padding: 50px;
+    color: white;
+    top: 800px;
+    padding-left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movies .overlaymovies h4{
+    position: absolute;
+    display: flex;
+    font-size: medium;
+    padding: 50px;
+    color: white;
+    top: 890px;
+    padding: 0 25% 0 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news{
+    font-size: 50px;   
+    padding-right: 20px;
+}
+#news{
+    height: 75px;
+    background-color: red;
+    color: white;
+}
+#news .card{
+    width: 80%;
+    transform: scale(1);
+    justify-content: space-around;
+}
+#news .card:hover{
+    width: 100%;
+    height:fit-content;
+    position: relative;
+    transform: scale(1.002);
+    transition-delay: 1s;
+    transition-duration: 1s;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#news .card h5{
+    color: transparent;
+}
+#news .card:hover h5{
+    color: white;
+}
+#characters .card:hover{
+    width: 40%;
+    height:fit-content;
+    position: relative;
+    transform: scale(1);
+    transition-duration: 0.5;
+}
+.insider{
+    display: flex;
+    color: white;
+    background-color: black;
+    padding-bottom: 324px;
+    padding-top: 0;
+}
+.insider1, .insider2{
+    text-align: center;
+    margin: 0 15px;
+}
+.insider1{
+    padding-left: 5%;
+}
+.insider2{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+#p1{
+    font-size: 20px;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p2{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#p3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding:  50px 200px 100px 50px;
+}
+.footer1 ul, .footer2 ul, .footer3 ul, .footer4 ul{
+    list-style-type: none;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+.footer1 li:hover, .footer2 li:hover{
+    box-shadow: inset;
+}
+.footer3 ul{
+    display: flex;
+}
