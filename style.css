@@ -293,6 +293,10 @@ footer{
     justify-content: space-between;
     padding:  50px 200px 100px 50px;
 }
+.footer .logo img{
+    margin-top: -200px;
+    margin-left: -10px;
+}
 .footer1 ul, .footer2 ul, .footer3 ul, .footer4 ul{
     list-style-type: none;
     font-size: small;
